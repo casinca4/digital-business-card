@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #23252C;
+}
+
+body {
+  background-color: #1A1B21;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 30%;
+}
+
+.container {
+  border-radius: 5px;
+  margin: 2.55em auto;
+}
+/* Info */
+
+header,
+footer,
+.section--about,
+.section--interests {
+  margin: 0 auto;
+  width: 90%;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+.header--picture {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-height: 360px;
+  margin-bottom: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.header--title {
+  font-size: 1.56em;
+}
+
+.header--subtitle {
+  color: #F3BF99;
+  font-size: 1.23em;
+  font-weight: 400;
+}
+
+.header--website {
+  font-size: .625em;
+  margin-bottom: 2.5em;
+}
+
+.header--btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: .9em;
+  font-weight: 500;
+  margin: 2em auto 3.5em;
+  padding-block: 1em;
+  width: 90%;
+}
+
+.header--btn a {
+  color: black;
+  cursor: pointer;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+/* About */
+
+.section--about--title,
+.section--interests--title {
+  margin: 0;
+}
+
+.section--about--text,
+.section--interests--text {
+  line-height: 1.7;
+  margin: .5em .2em 3em;
+}
+
+/* Interests */
+
+
+/* Footer */
+
+footer {
+  background: #161619;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+}
+
+.footer--icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.22em 0;
+}
+
+.footer--icon {
+  border-radius: 2px;
+  height: 25px;
+  width: 25px;
+}
+
+.footer--icon__linkedin {
+  background-color: #918E9B;
+  padding: .3em;
+}

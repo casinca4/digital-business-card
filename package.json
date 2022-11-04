@@ -1,0 +1,36 @@
+{
+	"homepage": "https://casinca4.github.io/digital-business-card/",
+	"name": "digital-business-card",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.17",
+		"@types/react-dom": "^18.0.6",
+		"@vitejs/plugin-react": "^2.0.1",
+		"gh-pages": "^4.0.0",
+		"vite": "^3.0.7"
+	},
+	"description": "Solo project as part of the Frontend Developer Career Path from Scrimba.",
+	"main": "vite.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/casinca4/digital-business-card.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/casinca4/digital-business-card/issues"
+	}
+}
