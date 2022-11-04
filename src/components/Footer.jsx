@@ -9,14 +9,14 @@ function Footer() {
 					target='_blank'>
 					<img
 						className='footer--icon footer--icon__linkedin'
-						src='../images/linkedin.png'
+						src='/public/images/linkedin.png'
 						alt='linkedin icon'
 					/>
 				</a>
 				<a href='https://github.com/casinca4' target='_blank'>
 					<img
 						className='footer--icon footer--icon__github'
-						src='../images/gitHub-icon.png'
+						src='/public/images/gitHub-icon.png'
 						alt='github icon'
 					/>
 				</a>
