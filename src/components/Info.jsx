@@ -9,7 +9,7 @@ function Info() {
 						alt='picture of mine'
 						className='header--picture'
 					/>
-					<h1 className='header--title'>casinca</h1>
+					<h1 className='header--title'>casinca casinca</h1>
 					<h2 className='header--subtitle'>Frontend Developer</h2>
 					<h3 className='header--website'>my.website</h3>
 					<div className='header--btn header--btn__email'>
