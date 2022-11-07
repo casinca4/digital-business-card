@@ -5,7 +5,7 @@ function Info() {
 			<header>
 				<div className='header--info'>
 					<img
-						src='./images/ich.jpeg'
+						src='/images/ich.jpeg'
 						alt='picture of Swantje smiling'
 						className='header--picture'
 					/>
@@ -15,7 +15,7 @@ function Info() {
 					<div className='header--btn header--btn__email'>
 						<img
 							className='header--btn__icon'
-							src='./images/briefumschlag-icon.png'
+							src='/images/briefumschlag-icon.png'
 							alt=''
 						/>
 						<a href='mailto:SwantjeRigalAntonelli@vivaldi.net'>Email</a>
