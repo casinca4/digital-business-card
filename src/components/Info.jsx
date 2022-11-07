@@ -6,7 +6,7 @@ function Info() {
 				<div className='header--info'>
 					<img
 						src='/images/ich.jpeg'
-						alt='picture of mine'
+						alt='picture of Swantje smilng'
 						className='header--picture'
 					/>
 					<h1 className='header--title'>casinca</h1>
